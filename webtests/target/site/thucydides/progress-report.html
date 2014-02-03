@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Requirements</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/core.css"/>
+    <link rel="stylesheet" type="text/css" href="jqplot/jquery.jqplot.min.css"/>
+
+    <!--[if IE]>
+    <script language="javascript" type="text/javascript" src="jit/Extras/excanvas.js"></script><![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="datatables/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="scripts/dygraph-combined.js"></script>
+
+
+    <link type="text/css" href="jqueryui/css/start/jquery-ui-1.8.18.custom.css" rel="Stylesheet" />
+    <script type="text/javascript" src="jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+
+    <link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet" />
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > Requirements </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Test Results</a></li>
+            <li><a href="capabilities.html">Requirements</a></li>
+            <li><a href="progress-report.html" class="current">Progress</a></li>
+            <li><a href="releases.html">Releases</a></li>
+                <li><a href="efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html">Features</a></li>
+                <li><a href="3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html">Stories</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+        <span class="date-and-time">Tests run 01-02-2014 20:02</span>
+        <br style="clear:left"/>
+    </div>
+
+    <div class="clr"></div>
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <div id="progress-graph"></div>
+                <script type="text/javascript">
+                    g = new Dygraph(
+                            document.getElementById("progress-graph"),
+                            "Build,Requirements,Passed,Failed,Estimated,Total\n" +
+                                "2014/02/01 07:50:32, 0, 0, 0, 0, 0\n" +
+                                                            "2014/02/01 07:52:28, 0, 0, 0, 0, 0\n" +
+                                                            "2014/02/01 07:54:19, 0, 0, 0, 0, 0\n" +
+                                                            "2014/02/01 08:00:30, 0, 0, 0, 0, 0\n" +
+                                                            "2014/02/01 08:01:40, 0, 0, 0, 0, 0\n" +
+                                                            "2014/02/01 08:02:29, 0, 0, 0, 0, 0\n"
+                            ,
+                            { fillGraph: true,
+                                width: 640,
+                                height: 480,
+                                title: 'Project Progress (Requirements)',
+                                titleHeight: 32,
+                                colors: ['#ffda4b', 'green', '#EE1111','#bccb8e', '#00aeff'],
+                                legend: 'always',
+                                drawAxesAtZero: true,
+                                includeZero: true,
+
+                                'Estimated': {
+                                    fillGraph: false
+                                },
+                                'Total': {
+                                    fillGraph: false
+                                }
+                            }
+                    );
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "title": "Goto home page click on logo",
+  "name": "goto_home_page_click_on_logo",
+  "test-case": {
+    "classname": "newnexus.jbehave.HomePageStoryTest"
+  },
+  "result": "SUCCESS",
+  "steps": "2",
+  "successful": "2",
+  "failures": "0",
+  "skipped": "0",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "10291",
+  "timestamp": "2014-02-01T20:02:16.735+01:00",
+  "user-story": {
+    "userStoryClass": {
+      "classname": "newnexus.jbehave.Application$HomePage$GotoHomePageAgain"
+    },
+    "qualifiedStoryClassName": "newnexus.jbehave.Application.HomePage.GotoHomePageAgain",
+    "storyName": "Goto home page again",
+    "path": "newnexus.jbehave.Application.HomePage",
+    "qualifiedFeatureClassName": "newnexus.jbehave.Application.HomePage",
+    "featureName": "Home page"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Navigational",
+      "type": "feature"
+    },
+    {
+      "name": "Goto home page again",
+      "type": "story"
+    },
+    {
+      "name": "Home page",
+      "type": "feature"
+    }
+  ],
+  "test-steps": [
+    {
+      "number": 1,
+      "description": "Goto main page",
+      "duration": 9741,
+      "startTime": 1391281336911,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target/site/thucydides/screenshot-80b2f892962dccf94a34b9f07542b5e84404bba559e5068121c5398ecaeb34c41.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 2,
+      "description": "Click on logo",
+      "duration": 349,
+      "startTime": 1391281346653,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target/site/thucydides/screenshot-dc1a37b0ee7d27fb0e6f1bb7dfb5cb2c54a55a67ea400706fb054696cc4c3ef33.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    }
+  ]
+}

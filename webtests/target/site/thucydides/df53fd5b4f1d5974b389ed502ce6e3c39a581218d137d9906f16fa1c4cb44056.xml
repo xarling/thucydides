@@ -1,0 +1,22 @@
+<acceptance-test-run title="Goto home page click on logo" name="goto_home_page_click_on_logo" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10291" timestamp="2014-02-01T20:02:16.735+01:00">
+  <user-story id="newnexus.jbehave.Application.HomePage.GotoHomePageAgain" name="Goto home page again" path="newnexus.jbehave.Application.HomePage">
+    <feature id="newnexus.jbehave.Application.HomePage" name="Home page"/>
+  </user-story>
+  <tags>
+    <tag name="Navigational" type="feature"/>
+    <tag name="Goto home page again" type="story"/>
+    <tag name="Home page" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="9741">
+    <screenshots>
+      <screenshot image="screenshot-80b2f892962dccf94a34b9f07542b5e84404bba559e5068121c5398ecaeb34c41.png"/>
+    </screenshots>
+    <description>Goto main page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="349">
+    <screenshots>
+      <screenshot image="screenshot-dc1a37b0ee7d27fb0e6f1bb7dfb5cb2c54a55a67ea400706fb054696cc4c3ef33.png"/>
+    </screenshots>
+    <description>Click on logo</description>
+  </test-step>
+</acceptance-test-run>
